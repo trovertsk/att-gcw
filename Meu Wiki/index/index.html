@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu site é dedicado ao jogo GraalOnline Classic, um MMORPG clássico de aventura e fantasia. Aqui você encontrará informações úteis e dicas para jogadores iniciantes e experientes, além de poder compartilhar suas experiências com outros jogadores da comunidade.">
+    <meta name="keywords" content="graal classic,gralats infinitos, gralats, graal missões">
+    <meta name="author" content="Trevor">
+    <title>Graal Wiki(Em desenvolvimento)</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<header>
+    <div class="logo">
+        <img src="/img/R.jpg" width="50px" height="50px" alt="Logo da minha empresa">
+    </div>      
+    <h1>Graal Classic Wiki</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Página Principal</a></li>
+            <li><a href="/tutoriais/tutoriais.html">Tutoriais</a></li>
+            <li><a href="/dicas/dicas.html">Dicas</a></li>
+            <li><a href="/mapas/mapas.html">Mapas</a></li>
+            <li><a href="/HeBP/HeBP.html">Heads e Bodys personalizadas</a></li>
+            <form>
+                <input type="text" placeholder="Pesquisar">
+                <button type="submit">Buscar</button>
+              </form>
+        </ul>
+        </nav>
+        </header>
+<body>
+        <form action="codigo.php" method="get">
+            <?php
+                if(isset($_GET['pesquisa'])) {
+                // código para processar a pesquisa aqui
+                }
+            ?>
+        </form>
+    <article id="home">
+        <h2>Olá, tudo bem?</h2>
+        <p>Seja muito bem-vindo(a) à mais nova e completa Wiki de GraalOnline Classic! Estamos animados por ter você aqui conosco, onde poderá explorar e desvendar todos os mistérios desse incrível jogo, além de encontrar uma ampla variedade de informações que irão te ajudar a aprimorar ainda mais a sua experiência no universo de GraalOnline Classic. Desde tutoriais passo-a-passo e dicas valiosas, até análises aprofundadas e as últimas novidades do jogo, temos certeza de que você encontrará tudo o que precisa em nossa plataforma. Nossa equipe de especialistas em jogos está dedicada a trazer conteúdos atualizados e precisos, com o objetivo de ajudar jogadores de todos os níveis a atingirem seus objetivos e desfrutarem do melhor que GraalOnline Classic tem a oferecer. Então, prepare-se para mergulhar em um mundo de possibilidades, descobertas e diversão!</p>
+            <br><br><img src="/img/graal.jpg" width="400px" height="250px">
+    </article>
+    <article id="sobre">
+        <h2>Sobre</h2>
+        <p>Graal Online Classic é um MMORPG (Massively Multiplayer Online Role-Playing Game) lançado em 2001 pela empresa TOONSLAB. O jogo é ambientado em um mundo de fantasia medieval e é jogado por milhares de jogadores ao redor do mundo.
+            <br>
+            Em Graal Online Classic, os jogadores criam seus próprios personagens e exploram o mundo virtual, lutando contra monstros, completando missões e interagindo com outros jogadores. O jogo tem gráficos pixelados, lembrando jogos clássicos de videogame dos anos 90.</p>
+    </article>
+</body>
+</html>
